@@ -2600,7 +2600,7 @@ type InnerServerCapabilities struct {
 	/**
 	 * The server provides execute command support.
 	 */
-	ExecuteCommandProvider ExecuteCommandOptions `json:"executeCommandProvider,omitempty"`
+	ExecuteCommandProvider ExecuteCommandOptions `json:"executeCommandProvider"`
 	/**
 	 * The server provides call hierarchy support.
 	 *

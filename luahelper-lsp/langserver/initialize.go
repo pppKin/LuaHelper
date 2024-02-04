@@ -133,6 +133,9 @@ func (l *LspServer) Initialize(ctx context.Context, vs InitializeParams) (lsp.In
 				},
 				RenameProvider:            true,
 				DocumentHighlightProvider: true,
+				ExecuteCommandProvider: lsp.ExecuteCommandOptions{
+					Commands: []string{},
+				},
 				Workspace: lsp.WorkspaceGn{
 					WorkspaceFolders: lsp.WorkspaceFoldersGn{
 						Supported:           true,

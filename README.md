@@ -1,3 +1,6 @@
+# This is a fork of the original project [LuaHelper](https://github.com/Tencent/LuaHelper)
+## **adding one minor change so that the `luahelper-lsp` is conformant with the [official lsp spec](https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification/), and thus can be used inside lsp client that are slightly stricter than the others, such as [lsp-types](https://github.com/gluon-lang/lsp-types); see relevant [issue](https://github.com/Tencent/LuaHelper/issues/128)**
+
 # LuaHelper Guide
 ![logo](/docs/images/logo.png)
 ## Introduction
@@ -8,10 +11,10 @@ Lua is very popular in game development because of its simple syntax and flexibl
 Compared with other Lua plugins currently on the market, it has the following **improvements**:
 
 - [X] 1. Coroutine development, real-time detection, millisecond output detection results
-- [X] 2. Support large-scale Lua projects, perfectly support editing and testing of 1000+ file project 
-- [X] 3. Comprehensive error type detection, including: grammar detection, semantic detection 
-- [X] 4. Various types of reference search, including: multi-file reference search, multi-layer reference search 
-- [X] 5. Rich configurable items, including: multiple alarm information configurations, ignorable file settings 
+- [X] 2. Support large-scale Lua projects, perfectly support editing and testing of 1000+ file project
+- [X] 3. Comprehensive error type detection, including: grammar detection, semantic detection
+- [X] 4. Various types of reference search, including: multi-file reference search, multi-layer reference search
+- [X] 5. Rich configurable items, including: multiple alarm information configurations, ignorable file settings
 - [X] 6. Low memory consumption, low-performance machines can still run smoothly
 
 
@@ -56,8 +59,8 @@ Lua因其语法简单、使用灵活，在游戏开发中十分流行。但其�
 
 ## Installation
 **App Market Installation**
-* Click the Vs Code application market icon 
-* Search luahelper in the input box 
+* Click the Vs Code application market icon
+* Search luahelper in the input box
 * Click to install Lua Helper
 * Marketplace url: https://marketplace.visualstudio.com/items?itemName=yinfei.luahelper
 
